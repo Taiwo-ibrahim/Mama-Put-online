@@ -1,0 +1,245 @@
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::root {
+    box-sizing: border-box;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+body {
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+    background-color: #d70000;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #f7b906;
+    color: black;
+}
+.topnav a .active {
+    background-color: #f7b906;
+    color: white;
+}
+div.hero-image {
+    background-image: "C:\Users\Taiwo\Desktop\ibro.js\img\food.jpg";
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: black;
+}
+div.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d70000;
+}
+div.hero-text > h1 {
+    font-size: 3em;
+}
+div .hero-text > a > button {
+    color: white;
+    border-color: #d70000;
+    background-color: #d70000;
+    padding: 10px;
+}
+.description {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+.main-tile {
+    padding: 0 1.5em;
+    background-color: white;
+    border-radius: .5em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.head-text {
+    padding: 1em 1.5em;
+    color: red;
+    background-color: black;
+    border-radius: .5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    max-width: 100%;
+}
+.about-body-tile {
+    padding: 0 1.5em;
+    background-color: white;
+    border-radius: .5em;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.header-body-tile {
+    padding: 1em 1.5em;
+    color: red;
+    background-color: black;
+    border-radius: .5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    max-width: 100%;
+}
+.about-image {
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+    background-image: src="C:\Users\Taiwo\Desktop\ibro.js\img\about us.jpg" ;
+}
+.menu-main-tile {
+    padding: 0 1.5em;
+    background-color: white;
+    border-radius: .5em;
+    max-width: 1080px;
+    margin: 0 auto;   
+}
+.header-menu {
+    padding: 1em 1.5em;
+    color: red;
+    background-color: black;
+    border-radius: .5em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    max-width: 100%;
+}
+.Tiles {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 576px) {
+    body {
+        background-color: #eeeeee;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .topnav {
+        background-color: #d70000;
+        overflow: hidden;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .topnav a:hover {
+        background-color: #f7b906;
+        color: black;
+    }
+    .topnav a .active {
+        background-color: #f7b906;
+        color: white;
+    }
+    div.hero-image {
+        background-image: "C:\Users\Taiwo\Desktop\ibro.js\img\food.jpg";
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-color: black;
+    }
+    div.hero-text{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #d70000;
+    }
+    div.hero-text > h1 {
+        font-size: 2em;
+    }
+    div .hero-text > a > button {
+        color: white;
+        border-color: #d70000;
+        background-color: #d70000;
+        padding: 10px;
+    }
+    .description {
+        max-width: 450px;
+        text-align: center;
+        margin: auto;
+    }
+    .main-tile {
+        padding: 0 1.5em;
+        background-color: white;
+        border-radius: .5em;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .head-text {
+        padding: 1em 1.5em;
+        color: red;
+        background-color: black;
+        border-radius: .5em;
+        margin-bottom: 1.5em;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: auto;
+    }
+    .about-body-tile {
+        padding: 0 1.5em;
+        background-color: white;
+        border-radius: .5em;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .header-body-tile {
+        padding: 1em 1.5em;
+        color: red;
+        background-color: black;
+        border-radius: .5em;
+        margin-bottom: 1.5em;
+        text-align: center;
+        max-width: 100%;
+        font-size: 17px;
+    }
+    .about-image {
+        background-position: center;
+        background-color: black;
+        background-size: cover;
+        background-image: src="C:\Users\Taiwo\Desktop\ibro.js\img\about us.jpg" ;
+    }
+    .menu-main-tile {
+        padding: 0 1.5em;
+        background-color: white;
+        border-radius: .5em;
+        max-width: 450px;
+        margin: 0 auto;   
+    }
+    .header-menu {
+        padding: 1em 1.5em;
+        color: red;
+        background-color: black;
+        border-radius: .5em;
+        margin-bottom: 1.5em;
+        text-align: center;
+        max-width: 100%;
+    }
+    .Tiles {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
